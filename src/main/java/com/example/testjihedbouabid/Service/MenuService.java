@@ -7,5 +7,5 @@ import java.util.Locale;
 import java.util.Set;
 
 public interface MenuService {
-
+    public Menu affecterClientAuMenu(String identifiant, String libelleMenu) ;
 }

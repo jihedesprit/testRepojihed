@@ -4,4 +4,5 @@ import com.example.testjihedbouabid.DAO.Entities.Client;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ClentRepository extends JpaRepository<Client,Long> {
+    Client findByIdentifiant (String identifiant);
 }
